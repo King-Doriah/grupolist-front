@@ -1,0 +1,15 @@
+# Dependências
+node_modules/
+
+# Build — Vercel gera isso
+dist/
+
+# Variáveis de ambiente
+.env
+.env.*
+.env.local
+.env.production
+
+# Sistema
+.DS_Store
+Thumbs.db

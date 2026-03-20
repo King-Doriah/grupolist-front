@@ -79,5 +79,8 @@ api.interceptors.response.use(
 
 export default api;
 
+//export const imgUrl = (foto: string | null | undefined): string | null =>
+//foto ? `${BASE}/uploads/${foto}` : null;
+
 export const imgUrl = (foto: string | null | undefined): string | null =>
-  foto ? `${BASE}/uploads/${foto}` : null;
+  foto ?? null;

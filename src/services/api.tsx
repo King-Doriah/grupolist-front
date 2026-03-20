@@ -1,6 +1,6 @@
 import axios, { type AxiosRequestConfig } from "axios";
 
-export const BASE = "http://localhost:5000" //"https://grupolist-api-production.up.railway.app"; //"http://localhost:5000";
+export const BASE = "https://grupolist-api-production.up.railway.app"; //"http://localhost:5000";
 
 const api = axios.create({ baseURL: BASE, timeout: 15000 });
 

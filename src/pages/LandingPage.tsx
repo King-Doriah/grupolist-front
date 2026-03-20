@@ -34,7 +34,7 @@ const FALLBACK_FAQS: FaqItem[] = [
     id: "2",
     pergunta: "O que é o GrupoList?",
     resposta:
-      "É uma plataforma para acompanhar compras em grupo em tempo real. O dono cria uma lista, compartilha um token único no WhatsApp e todos acompanham cada etapa — sem perguntar no direct.",
+      "É uma plataforma para acompanhar compras em grupo em tempo real. O dono cria uma lista, compartilha um token único no WhatsApp ou outro canal e todos acompanham cada etapa — sem perguntar no off.",
   },
   {
     id: "3",
@@ -52,7 +52,7 @@ const FALLBACK_FAQS: FaqItem[] = [
     id: "5",
     pergunta: "O que significa cada status?",
     resposta:
-      "ABERTA: lista disponível. COMPRA FEITA: produto comprado. NO PROCESSO: produto na alfândega/processo para retirada. ENCERRADA: todos já pagaram e retiraram.",
+      "ABERTA: lista disponível. COMPRA FEITA: produto comprado. NO PROCESSO: produto está disponível para retirada do processo. ENCERRADA: todos já pagaram e retiraram.",
   },
   {
     id: "6",
@@ -62,9 +62,20 @@ const FALLBACK_FAQS: FaqItem[] = [
   },
   {
     id: "7",
-    pergunta: "Tem limite de listas que posso criar?",
+    pergunta: "Quantas listas posso criar?",
+    resposta: "No plano FREE tens 10 listas. No PRO é ilimitado.",
+  },
+  {
+    id: "8",
+    pergunta: "Como recupero a minha senha?",
     resposta:
-      "Não há limite. Crie quantas listas precisar — calçados, roupas, eletrónicos, o que for.",
+      'Clica em "Esqueci a senha" no login e segue as instruções por email.',
+  },
+  {
+    id: "9",
+    pergunta: "Como compartilho minha lista?",
+    resposta:
+      "Após criar, copie o token com um toque e envie no grupo do WhatsApp.",
   },
 ];
 

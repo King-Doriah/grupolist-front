@@ -34,21 +34,18 @@ const FALLBACK_FAQS: FaqItem[] = [
   },
   {
     id: "5",
-
     pergunta: "O que significa cada status?",
     resposta:
       "ABERTA: lista disponível. COMPRA FEITA: produto comprado. NO PROCESSO: produto está disponível para retirada do processo. ENCERRADA: todos já pagaram e retiraram.",
   },
   {
     id: "6",
-
     pergunta: "Posso ter listas privadas?",
     resposta:
       'Sim. Ao criar ou editar, use o switch "Lista pública" para controlar a visibilidade. Você pode mudar quando quiser.',
   },
   {
     id: "7",
-
     pergunta: "Quantas listas posso criar?",
     resposta: "No plano FREE tens 10 listas. No PRO é ilimitado.",
   },

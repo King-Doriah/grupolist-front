@@ -330,7 +330,7 @@ export default function AuthModal({ onClose }: Props) {
               className="font-display"
               style={{ fontSize: 20, fontWeight: 800, color: "var(--text-hi)" }}
             >
-              {tab === "forgot" ? "Recuperar senha" : "Minha Lista"}
+              {tab === "forgot" ? "Recuperar senha" : "GrupoList"}
             </span>
           </div>
           <button

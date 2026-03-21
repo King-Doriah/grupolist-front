@@ -117,7 +117,7 @@ export default function TokenPage() {
           className="font-display"
           style={{ fontSize: 17, fontWeight: 700, color: "var(--text-hi)" }}
         >
-          GrupoList
+          Minha Lista
         </span>
       </header>
 
@@ -401,8 +401,8 @@ export default function TokenPage() {
                 }}
               >
                 Você está a acompanhar uma lista do{" "}
-                <strong style={{ color: "var(--text-hi)" }}>GrupoList</strong>.
-                O dono da lista irá actualizar o progresso em cada etapa.
+                <strong style={{ color: "var(--text-hi)" }}>Minha Lista</strong>
+                . O dono da lista irá actualizar o progresso em cada etapa.
               </p>
             </div>
           </div>

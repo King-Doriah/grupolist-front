@@ -32,7 +32,7 @@ const FALLBACK_FAQS: FaqItem[] = [
   },
   {
     id: "2",
-    pergunta: "O que é o GrupoList?",
+    pergunta: "O que é o Minha Lista?",
     resposta:
       "É uma plataforma para acompanhar compras em grupo em tempo real. O dono cria uma lista, compartilha um token único no WhatsApp ou outro canal e todos acompanham cada etapa — sem perguntar no off.",
   },
@@ -908,7 +908,7 @@ export default function LandingPage() {
         }}
       >
         <p style={{ fontSize: 14, color: "var(--text-lo)" }}>
-          © 2026 GrupoList · Feito para grupos de compras · LaurinSoft
+          © 2026 Minha Lista · Feito para grupos de compras · LaurinSoft
           Tecnologies
         </p>
       </footer>

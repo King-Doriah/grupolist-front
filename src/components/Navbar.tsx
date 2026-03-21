@@ -16,7 +16,7 @@ const FALLBACK_FAQS: FaqItem[] = [
   },
   {
     id: "2",
-    pergunta: "O que é o GrupoList?",
+    pergunta: "O que é o Minha Lista?",
     resposta:
       "É uma plataforma para acompanhar compras em grupo em tempo real. O dono cria uma lista, compartilha um token único no WhatsApp ou outro canal e todos acompanham cada etapa — sem perguntar no off.",
   },
@@ -161,7 +161,7 @@ export default function Navbar({ onOpenAuth }: Props) {
                 letterSpacing: "-0.02em",
               }}
             >
-              GrupoList
+              Minha Lista
             </span>
           </div>
 
